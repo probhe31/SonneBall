@@ -6,11 +6,17 @@ public class Ball : MonoBehaviour {
 
     Rigidbody myRigidbody;
     public AudioClip[] clips;
-    public int value;
+    //public int value;
+    
+    public int idItem;
+    [HideInInspector]
+    public Item data;
 
     public void Initialize()
     {
         //canDie = true;
+        data = ItemManager.Instance.items.itemList[idItem];
+
         this.GetComponent<SphereCollider>().enabled = true;
         myRigidbody = this.GetComponent<Rigidbody>();
         myRigidbody.isKinematic = true;
@@ -36,21 +42,14 @@ public class Ball : MonoBehaviour {
         }
 
         
-
-        if (collision.gameObject.tag == "Disabler")
-        {
-            //canDie = false;
-        }
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "PointSensor")
         {
-            //if (!canDie)
-            //return;
-
-            Game.Instance.AddPoint(value);
+           
+            Game.Instance.AddPoint(data.value);
             GameObject sfx = TrashMan.spawn("sfx");
             sfx.GetComponent<AudioSource>().clip = clips[0];
             sfx.GetComponent<AudioSource>().Play();

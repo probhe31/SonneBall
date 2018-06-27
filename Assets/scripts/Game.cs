@@ -7,10 +7,10 @@ public class Game : MonoBehaviour {
     int numPoints = 0;
     public Hud score;
     public Animator face;
-
+    
     void Awake()
     {
-        Instance = this;
+        Instance = this;        
     }
 
     public int GetNumPoints()
@@ -32,5 +32,7 @@ public class Game : MonoBehaviour {
         SceneManager.LoadScene("mainmenu");
     }
 
-   
+
+    
+
 }
