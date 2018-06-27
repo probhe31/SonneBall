@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:60b59cd633ddbf7c3cf2b204ae70cd87:4851dec3f92f5bde063f19ba7c637810:d0cf3b266244cf7e34583fff21449c84$ -->
+<TextureAtlas imagePath="H:/BHEER/SonneBalls/SonneBall/Assets/sprites/sonneSpriteSheet.png/sonneSpriteSheet.png" width="1947" height="1686">
+    <SubTexture name="1" x="2" y="2" width="330" height="419"/>
+    <SubTexture name="2" x="1330" y="2" width="330" height="419"/>
+    <SubTexture name="3" x="998" y="423" width="330" height="419"/>
+    <SubTexture name="4" x="1330" y="423" width="330" height="419"/>
+    <SubTexture name="5" x="666" y="844" width="330" height="419"/>
+    <SubTexture name="6" x="666" y="1265" width="330" height="419"/>
+    <SubTexture name="7" x="998" y="844" width="330" height="419"/>
+    <SubTexture name="8" x="1330" y="844" width="330" height="419"/>
+    <SubTexture name="9" x="998" y="1265" width="330" height="419"/>
+    <SubTexture name="10" x="2" y="423" width="330" height="419"/>
+    <SubTexture name="11" x="2" y="844" width="330" height="419"/>
+    <SubTexture name="12" x="2" y="1265" width="330" height="419"/>
+    <SubTexture name="13" x="334" y="2" width="330" height="419"/>
+    <SubTexture name="14" x="334" y="423" width="330" height="419"/>
+    <SubTexture name="15" x="334" y="844" width="330" height="419"/>
+    <SubTexture name="16" x="334" y="1265" width="330" height="419"/>
+    <SubTexture name="17" x="334" y="1265" width="330" height="419"/>
+    <SubTexture name="18" x="666" y="2" width="330" height="419"/>
+    <SubTexture name="19" x="998" y="2" width="330" height="419"/>
+    <SubTexture name="21" x="666" y="423" width="330" height="419"/>
+    <SubTexture name="mini_0000_Layer-10" x="1662" y="868" width="236" height="278"/>
+    <SubTexture name="mini_0001_Layer-9" x="1662" y="288" width="235" height="295"/>
+    <SubTexture name="mini_0002_Layer-8" x="1330" y="1407" width="127" height="251"/>
+    <SubTexture name="mini_0003_Layer-7" x="1624" y="1395" width="201" height="170"/>
+    <SubTexture name="mini_0004_Layer-6" x="1662" y="585" width="234" height="281"/>
+    <SubTexture name="mini_0005_Layer-5" x="1662" y="1148" width="247" height="245"/>
+    <SubTexture name="mini_0006_Layer-4" x="1330" y="1265" width="292" height="140"/>
+    <SubTexture name="mini_0007_Layer-3" x="1459" y="1407" width="142" height="179"/>
+    <SubTexture name="mini_0008_Layer-2" x="1827" y="1395" width="118" height="233"/>
+    <SubTexture name="mini_0009_Layer-1" x="1662" y="2" width="267" height="284"/>
+</TextureAtlas>

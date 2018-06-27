@@ -8,14 +8,16 @@ public class MainMenu : MonoBehaviour {
 
     public Text t1;
     public Text t2;
+    public Text coinTxt;
 
-    
+
 
 
     private void Start()
     {
         t1.text = "" + PlayerPrefs.GetInt("bestscore");
         t2.text = "" + PlayerPrefs.GetInt("bestscore");
+        coinTxt.text = "" + PlayerPrefs.GetInt("numCoins");
     }
 
   
@@ -35,11 +37,17 @@ public class MainMenu : MonoBehaviour {
 
     public void GotoGame()
     {
-        SceneManager.LoadScene("game");
+        int idSkin = PlayerPrefs.GetInt("currentSkin");        
+        SceneManager.LoadScene(CharacterManager.Instance.characters.characterList[idSkin].sceneName);
     }
 
     public void GoToAlbum()
     {
         SceneManager.LoadScene("album");
+    }
+
+    public void GoToCharacters()
+    {
+        SceneManager.LoadScene("characters");
     }
 }

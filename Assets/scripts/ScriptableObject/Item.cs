@@ -9,4 +9,5 @@ public class Item {
     public string prefabName;
     public int unlockAt;    
     public int value;
+    public Sprite sprite;
 }
